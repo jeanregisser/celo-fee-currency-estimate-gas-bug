@@ -8,11 +8,10 @@ import {
   formatEther,
   formatUnits,
   http,
-  parseGwei,
   parseUnits,
 } from "viem";
 import { mnemonicToAccount, privateKeyToAccount } from "viem/accounts";
-import { celo, celoAlfajores } from "viem/chains";
+import { celo } from "viem/chains";
 import "dotenv/config";
 
 // Fee Currency address, here CCOP token address
